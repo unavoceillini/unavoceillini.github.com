@@ -1,25 +1,23 @@
-
-
-#navigation { 
+#sidebar { 
     font-size:0.75em; 
     width:150px; 
 }
 
-#navigation ul { 
+#sidebar ul { 
     margin:0;
     padding:0; 
 
     background:#666;
 }
 
-#navigation li { 
+#sidebar li { 
     list-style: none; 
     border-bottom: #fff solid;
     border-top: #fff solid;
     border-width: 1px;
 }
 
-#navigation a {
+#sidebar a {
     color: #fff;
     cursor: pointer;
     display:block;
@@ -30,11 +28,11 @@
     width:100%;
 }
  
-#navigation a:hover {
+#sidebar a:hover {
     text-decoration:underline;
 }
 
-#navigation li:hover {
+#sidebar li:hover {
     background: #f90;
     position: relative;
 }
