@@ -4,7 +4,7 @@ templates=`ls templates/*.shtml | sed 's/\.shtml$//g'`
 
 for i in $templates
 do
-    templates/add_sidebar $i.shtml > $i.html
+    templates/add_sidebar $i > $i.html
 done
 
 mv templates/*.html .

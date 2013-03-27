@@ -1,0 +1,8 @@
+#!/bin/sh
+
+templates=`ls *.shtml | sed 's/\.shtml$//g'` 
+
+for i in $templates
+do
+    touch $i.meta
+done
