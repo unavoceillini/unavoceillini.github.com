@@ -6,13 +6,13 @@
         exit(1);
     }
 
-    if (!($html = file_get_contents($argv[1].".shtml")))
+    if (($html = file_get_contents($argv[1].".shtml")) === FALSE)
     {
         print "Can not open file ".$argv[1].".shtml\n";
         exit(2);
     }
 
-    if (!($meta = file_get_contents($argv[1].".meta")))
+    if (($meta = file_get_contents($argv[1].".meta")) === FALSE)
     {
         print "Can not open file ".$argv[1].".meta\n";
         exit(2);
