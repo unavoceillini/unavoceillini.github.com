@@ -2,13 +2,17 @@
 <html>
     <head>
         <title>Una Voce Illini</title>
-        <base href="http://unavoceillini.github.com" target="_top">
+<!--        <base href="http://unavoceillini.github.com" target="_top"> -->
 
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <script type="text/javascript" src="script.js"></script>
     </head>
 
 <body>
-<H1>Una Voce Illini</H1>
+
+<div class="header">
+    <H1>Una Voce Illini</H1>
+</div>
 
 <div id="sidebar">
     <ul>
@@ -29,53 +33,54 @@
         </td></tr>
     </table>
 
+    <div>
     <a href="http://www.facebook.com/unavoceillini">
         <img src="./img/find_us_on_facebook_badge.gif" alt="Find us on facebook">
     </a>
+    </div>
 
-    <table border=0 style="background-color: #fff; padding: 5px;" cellspacing=0>
-        <tr><td style="padding-left: 5px">
-        <b>Subscribe to our mailing list!</b>
-        </td></tr>
-        <form action="http://groups.google.com/group/unavoceillini/boxsubscribe">
-        <input type=hidden name="hl" value="en">
-        <tr><td style="padding-left: 5px;">
-        Email: <input type=text name=email>
-        <input type=submit name="sub" value="Subscribe">
-        </td></tr>
-        </form>
-     </table>
+    <form action="http://groups.google.com/group/unavoceillini/boxsubscribe"
+          onsubmit="mailing_list_window();" target=win>
+        <fieldset>
+            <legend>Subscribe to our mailing list!</legend>
+            Email: <input type=text   name=email>
+                   <input type=hidden name="hl"  value="en">
+                   <input type=submit name="sub" value="Subscribe">
+         </fieldset>
+    </form>
 
 </div>
 
-<h2>Home</h2>
+<div class="center">
+    <h2>Home</h2>
 
-<p>
-Una Voce Illini is a newly established council in Champaign-Urbana, we
-are in the process of officially becoming part of the larger Una Voce
-International Federation. We are a group of faithful Roman Catholics
-who share the goal of promoting and facilitating the celebration of
-the extraordinary form of the Mass (also known as the traditional Latin
-Mass or the Tridentine Latin Mass). We also support and promote related
-traditional practices, such as Gregorian chant.
-</p>
+    <p>
+    Una Voce Illini is a newly established council in Champaign-Urbana, we
+    are in the process of officially becoming part of the larger Una Voce
+    International Federation. We are a group of faithful Roman Catholics
+    who share the goal of promoting and facilitating the celebration of
+    the extraordinary form of the Mass (also known as the traditional Latin
+    Mass or the Tridentine Latin Mass). We also support and promote related
+    traditional practices, such as Gregorian chant.
+    </p>
 
-<h2>News and Events</h2>
+    <h2>News and Events</h2>
 
-<h3>April 8 - Traditional Latin Mass at St. John's Chapel</h3>
+    <h3>April 8 - Traditional Latin Mass at St. John's Chapel</h3>
 
-<p>
-Father Archer will be celebrating a Missa Cantata (sung High mass) at 6:00
-PM at St. John's Chapel followed by a talk and Q&amp;A in the Msgr. Swetland
-room at 7:00 PM. The mass will feature a full choir, torchbearers,
-and incense! The address for St. John's Chapel is:
-</p>
+    <p>
+    Father Archer will be celebrating a Missa Cantata (sung High mass) at 6:00
+    PM at St. John's Chapel followed by a talk and Q&amp;A in the Msgr. Swetland
+    room at 7:00 PM. The mass will feature a full choir, torchbearers,
+    and incense! The address for St. John's Chapel is:
+    </p>
 
-<p>
-St Johns Catholic Newman Center<br>
-604 E Armory Ave, Champaign, IL<br>
-(217) 344-1266<br>
-</p>
+    <p>
+    St Johns Catholic Newman Center<br>
+    604 E Armory Ave, Champaign, IL<br>
+    (217) 344-1266<br>
+    </p>
+</div>
 
 </body>
 
