@@ -15,38 +15,17 @@ body {
 }
 
 #content {
-    color: #1C3764; /* Illini Blue */
-    margin-left: 14.5em;
+    color: #1C3764; /* font color is Illini Blue */
+    margin-left: 14.5em; /* margin is width of sidebar + padding */
     padding: 1em;
-
-/*
-    min-width: 13em;
-    max-width: 45em;
-*/
-
     border-color:#D2531C; /* Illini Orange */
     border-style:solid;
 }
 
-/* Formating for mailing list input field */
-.input {
-    width: 8em;
-}
-
-/* Formating for mailing list Go button */
-.button {
-    width: 2.5em;
-}
-
-.mailing_list_form {
-    border: 1px solid #D2531C; /* Illini Orange */
-}
-
 #sidebar { 
     color: white;
-    float: left;
+    float: left; 
 
-    /*font-size:1em; */
     width: 14em;
     background:#1C3764; /* Illini Blue */
 }
@@ -70,7 +49,7 @@ body {
     list-style: none; 
     border-bottom: white solid;
     border-top: white solid;
-    border-width: 1px;
+    border-width: 1pt;
 }
 
 #sidebar a {
@@ -91,3 +70,18 @@ body {
     background: #D2531C; /* Illini Orange: #D2531C */
     position: relative;
 }
+
+/* Formating for mailing list input field */
+.input {
+    width: 8em;
+}
+
+/* Formating for mailing list Go button */
+.button {
+    width: 2.5em;
+}
+
+.mailing_list_form {
+    border: 1pt solid #D2531C; /* Illini Orange */
+}
+
