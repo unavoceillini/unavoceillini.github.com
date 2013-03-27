@@ -1,0 +1,74 @@
+#!/usr/bin/php
+<?php
+    if ($argc != 2)
+    {
+        print $argv[0]." [file.html]!\n";
+        exit(1);
+    }
+
+    if (!($html = file_get_contents($argv[1])))
+    {
+        print "Can not open file ".$argv[1]."\n";
+        exit(2);
+    }
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+    <head>
+        <title>Una Voce Illini</title>
+<!--        <base href="http://unavoceillini.github.com" target="_top"> -->
+
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+
+<body>
+
+<div class="header">
+    <H1>Una Voce Illini</H1>
+</div>
+
+<div id="sidebar">
+    <ul>
+        <li><a href="./">Home</a></li>
+        <li><a href="#">Who We Are</a></li>
+        <li><a href="#">What Can You Do?</a></li>
+        <li><a href="./faq.html">FAQ</a></li>
+    </ul>
+
+    <table class="image">
+        <caption align="bottom">
+        <b>Our Lady of Perpetual Help,<br>Pray for us!</b>
+        </caption>
+
+        <tr><td><img src="./img/our_lady_of_perpetual_help.jpg" 
+            alt="Icon of Our Lady of Perpetual Help" 
+            title="Icon of Our Lady of Perpetual Help"> 
+        </td></tr>
+    </table>
+
+    <form action="http://groups.google.com/group/unavoceillini/boxsubscribe"
+          onsubmit="mailing_list_window();" target=win>
+        <fieldset class="mailing_list_form">
+            <legend>Subscribe to our mailing list!</legend>
+            Email: <input type=text   name=email            class="input">
+                   <input type=hidden name="hl"  value="en">
+                   <input type=submit name="sub" value="Go" class="button">
+         </fieldset>
+    </form>
+
+    <div class="image">
+    <a href="http://www.facebook.com/unavoceillini">
+        <img src="./img/find_us_on_facebook_badge.gif" alt="Find us on facebook">
+    </a>
+    </div>
+
+</div>
+
+<div id="content">
+<?php echo $html; ?>
+</div>
+
+</body>
+
+</html>
