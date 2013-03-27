@@ -6,3 +6,5 @@ for i in $templates
 do
     templates/add_sidebar $i.shtml > $i.html
 done
+
+mv templates/*.html .
