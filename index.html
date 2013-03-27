@@ -1,4 +1,4 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
 <html>
     <head>
         <title>Una Voce Illini</title>
@@ -24,7 +24,7 @@
 
     <table class="image">
         <caption align="bottom">
-        Our Lady of Perpetual Help, Pray for us!
+        <b>Our Lady of Perpetual Help, Pray for us!</b>
         </caption>
 
         <tr><td><img src="./img/our_lady_of_perpetual_help.jpg" 
@@ -33,25 +33,25 @@
         </td></tr>
     </table>
 
-    <div>
+    <form action="http://groups.google.com/group/unavoceillini/boxsubscribe"
+          onsubmit="mailing_list_window();" target=win>
+        <fieldset class="mailing_list_form">
+            <legend>Subscribe to our mailing list!</legend>
+            Email: <input type=text   name=email            class="input">
+                   <input type=hidden name="hl"  value="en">
+                   <input type=submit name="sub" value="Go" class="button">
+         </fieldset>
+    </form>
+
+    <div class="image">
     <a href="http://www.facebook.com/unavoceillini">
         <img src="./img/find_us_on_facebook_badge.gif" alt="Find us on facebook">
     </a>
     </div>
 
-    <form action="http://groups.google.com/group/unavoceillini/boxsubscribe"
-          onsubmit="mailing_list_window();" target=win>
-        <fieldset>
-            <legend>Subscribe to our mailing list!</legend>
-            Email: <input type=text   name=email>
-                   <input type=hidden name="hl"  value="en">
-                   <input type=submit name="sub" value="Subscribe">
-         </fieldset>
-    </form>
-
 </div>
 
-<div class="center">
+<div id="content">
     <h2>Home</h2>
 
     <p>
