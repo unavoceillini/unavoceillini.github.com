@@ -85,3 +85,8 @@ body {
     border: 1pt solid #D2531C; /* Illini Orange */
 }
 
+/* Using this to put a caption below the image of the blessed mother */
+caption
+{
+    caption-side:bottom;
+}
