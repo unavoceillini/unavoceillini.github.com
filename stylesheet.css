@@ -38,6 +38,18 @@ body {
     display:block;
 }
 
+/* First collapse border then set it to zero */
+#sidebar table
+{
+    border-collapse:collapse;
+}
+
+#sidebar table, th, td {
+    padding:0;
+    margin:0;
+    border:0;
+}
+
 #sidebar ul { 
     margin:0;
     padding:0; 
