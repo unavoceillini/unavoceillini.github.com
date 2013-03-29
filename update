@@ -9,3 +9,7 @@ do
 done
 
 mv templates/*.html .
+
+#check for HTML errors
+echo ""
+tidy -e -q *.html && echo "No HTML errors!"
