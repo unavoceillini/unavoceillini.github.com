@@ -75,7 +75,14 @@
     <div class="image">
     <a href="http://www.facebook.com/unavoceillini">
         <img src="./img/find_us_on_facebook_badge.gif" 
-            alt="Find us on facebook" title="Like us on facebook!">
+            alt="Find us on Facebook" title="Like us on Facebook!">
+    </a>
+    </div>
+
+    <div class="image">
+    <a href="http://www.youtube.com/user/UnaVoceIllini">
+        <img src="./img/YT_Subscribe_160x27_grey.png"
+            alt="Find us on YouTube" title="Checkout our YouTube Channel!">
     </a>
     </div>
 
