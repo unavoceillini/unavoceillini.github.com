@@ -1,0 +1,12 @@
+Add File
+=================
+
+git add foo.txt
+
+
+Update Webpage
+=================
+
+git commit -a "Message goes here..."
+
+git push
