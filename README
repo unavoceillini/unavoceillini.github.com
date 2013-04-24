@@ -7,6 +7,6 @@ git add foo.txt
 Update Webpage
 =================
 
-git commit -m "Message goes here..."
+git commit -a -m "Message goes here..."
 
 git push
