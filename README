@@ -2,6 +2,7 @@ Checkout Code
 =================
 
 git clone https://github.com/unavoceillini/unavoceillini.github.com
+git remote set-url origin git@github.com:unavoceillini/unavoceillini.github.com
 
 Add File
 =================
