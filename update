@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 templates=`ls templates/*.shtml | sed 's/\.shtml$//g'` 
 
